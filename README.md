@@ -7,5 +7,5 @@ Removed symlink /etc/systemd/system/dbus-org.freedesktop.NetworkManager.service.
 Removed symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service.
 [root@bigpeng ~]# systemctl stop NetworkManager.service 
 
-方法2：
+#然后：
 systemctl restart NetworkManager
